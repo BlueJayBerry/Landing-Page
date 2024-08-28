@@ -86,3 +86,23 @@ header.general-padding{
 .subtext{
     width: 7rem;
 }
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    margin: 0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+.reference{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}

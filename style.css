@@ -41,6 +41,7 @@ p{
 }
 .hero-title{
     width:50%;
+    flex: 0.5 1 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
@@ -52,6 +53,8 @@ p{
 }
 .hero-image{
     width: 50%;
+    flex: 0.75 1 0;
+    min-width: 220px;
 }
 .primary-button{
     background-color: #3882F6;
@@ -60,9 +63,26 @@ p{
     color: #F9FAF8;
     font-weight: 700;
 }
-.padding-64{
+.general-padding{
     padding: 32px 128px;
 }
-header.padding-64{
+header.general-padding{
     padding-top: 16px;
+}
+.content{
+    text-align: center;
+}
+.content-images-div{
+    padding: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-image{
+    width: 7rem;
+    border: 3px solid #3882F6;
+    border-radius: 11px;
+}
+.subtext{
+    width: 7rem;
 }
